@@ -1,0 +1,15 @@
+/node_modules
+/public/storage
+/vendor
+/.idea
+/.vagrant
+Homestead.json
+Homestead.yaml
+.env
+.env.example
+.env.live
+/.vagrant
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

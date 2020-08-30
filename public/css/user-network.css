@@ -1,0 +1,103 @@
+.main-body {
+  border-left: 1px solid #b3b3b3;
+}
+.page-header {
+  border: none;
+}
+.sidebar .sidebar-container .row-header h1{
+  margin: 40px 0 0;
+  color: #f50c79;
+  font-weight: 500;
+  font-size: 41px;
+}
+.sidebar .sidebar-container .row-header p {
+  color: #705f66;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  margin: 0;
+  width: 100%;
+}
+.sidebar .sidebar-container .row-header p.profile-position {
+  font-style: normal;
+  float: left;
+  color: #a69aa1;
+}
+.sidebar .sidebar-container .row-header img {
+  float: left;
+  width: 55%;
+  margin: 30px 22.5% 10px;
+  height: auto;
+  border-radius: 100%;
+  padding-top: 55%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.row-network {
+  float: left;
+  margin: 0;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.row-network h1 {
+  float: left;
+  width: 100%;
+  margin: 40px 0 50px;
+  color: #f50c79;
+  font-weight: 500;
+  font-size: 41px;
+}
+.row-network .img-container {
+  float: left;
+  width: 100%;
+  padding: 0 60px;
+  min-height: 300px;
+}
+.row-network .img-container .img {
+  float: left;
+  width: 100%;
+  padding: 30px 40px;
+  border-bottom: 1px solid #b3b3b3;
+}
+.row-network .img-container .img img {
+  float: left;
+  width: 120px;
+  margin: 0 10%;
+  border-radius: 100%;
+  height: auto;
+  padding-top: 120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.row-network .img-container .img h1 {
+  color: #705f66;
+  float: left;
+  width: auto;
+  font-size: 20px;
+  margin: 33px 0 0 30px;
+}
+.row-network .img-container .img h1 span {
+  font-style: italic;
+  margin: 10px 0 0;
+  margin: 5px 0 0;
+  float: left;
+  font-weight: 200;
+}
+.row-network .btn-primary {
+  float: right;
+  margin: 36px 30px 0 0;
+  padding: 5px 40px;
+  font-size: 18px;
+  color: #f50c79;
+  background: transparent;
+  border-color: #f50c79;
+  pointer-events: none;
+}
+.row-network .btn-primary.not {
+  border-color: #fff;
+  color: #fff;
+  background: #f50c79;
+  padding: 5px 21.5px;
+}

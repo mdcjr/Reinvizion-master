@@ -1,0 +1,425 @@
+.footer-background {
+  background: #212121;
+}
+.settings-header {
+  float: left;
+  width: 100%;
+  margin: 40px 0 100px;
+}
+.settings-header span, .settings-header button {
+  border-top: 4px solid transparent;
+  padding: 5px 0 0;
+  text-transform: uppercase;
+  margin: 0 30px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.settings-header button {
+  background: none;
+  border: none;
+}
+.settings-header span.active {
+  border-color: #d90f74;
+}
+.settings-containers {
+ width: 80%;
+ float: left;
+ margin: 0 10%; 
+}
+.settings-containers .container {
+  display: none;
+  width: 100%;
+  margin-bottom: 100px;
+  min-height: 400px;
+}
+.settings-containers .container.subsc {
+  margin-bottom: 50px;
+}
+.settings-containers .container.active {
+  display: block;
+}
+.settings-containers .container h1 {
+  color: #e61983;
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: 50px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.settings-containers .container .col-lg-6 {
+  padding: 20px;
+}
+.settings-containers .container.subsc .col-lg-6.subsc-cont {
+  width: 70%;
+  margin: 0 15%;
+}
+.settings-containers .container.subsc .col-lg-12 {
+  margin: 50px 0 0;
+  width: 95%;
+  float: right;
+}
+.settings-containers .container.subsc h1 {
+  margin-bottom: 30px;
+}
+.settings-containers .container.subsc p {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 2px 0 0;
+  text-transform: uppercase;
+}
+.settings-containers .container.subsc p.card {
+  text-transform: initial;
+}
+.settings-containers .container.subsc p.cancel {
+  float: left;
+  margin: 0;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+.settings-containers .container.subsc .cancel-container {
+  float: left;
+  width: 100%;
+  margin: 100px 0 0;
+}
+.settings-containers .container.subsc p.sub-title {
+  font-size: 25px;
+  margin: 0 0 70px;
+}
+.settings-containers .container.subsc  p span {
+  color: #e61983;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: italic;
+}
+.settings-containers .container.subsc .conditions p {
+  margin: 5px 0 0;
+  font-size: 13px;
+  float: right;
+}
+.settings-containers .container.subsc .conditions p span {
+  color: #ff0000;
+  font-weight: 200;
+  text-decoration: underline;
+  font-size: 13px;
+  font-style: normal;
+  cursor: pointer;
+}
+.settings-containers .container.subsc .col-lg-6 p.price {
+  font-size: 26px;
+  font-weight: 500;
+  color: #404040;
+  margin: 0 0 30px;
+}
+.settings-containers .container.subsc .col-lg-6 input{
+  width: 60%;
+  margin: 20px 20% 0;
+  float: left;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0 10px;
+  border: 2px solid #d1d1d1;
+  overflow: auto;
+  outline: none;
+  box-shadow: none;
+  resize: none;
+  border-radius: 0;
+  background: transparent;
+  -webkit-appearance: none;
+}
+.settings-containers .container.subsc form {
+  float: left;
+  padding-left: 50px;
+  width: 50%;
+}
+.settings-containers .container.subsc form.second{
+  float: right;
+  padding-left: 0;
+  padding-right: 50px;
+}
+.settings-containers .container.subsc form button {
+  background:none;
+  border: 0;
+  box-shadow: none;
+  width: 100%;
+}
+.settings-containers .container.subsc form button span{
+  float: left;
+  width: 94%;
+  background: #fff;
+  margin: 20px 0 10px;
+  padding: 19px 29px;
+  height: auto;
+  text-align: center;
+  font-weight: 200;
+  cursor: pointer;
+  border:1px solid #f50a7b; 
+  border-radius: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #f50a7b;
+}
+/*.settings-containers .container.subsc form.second button span {
+  float: right;
+  color: #f50a7b;
+}*/
+.settings-containers .container.subsc form button span:active, .settings-containers .container.subsc form.active button span {
+  background: #f50a7b;
+  color: #fff;
+  border: none;
+  padding: 20px 30px;
+}
+.settings-containers .container.subsc .col-lg-6 p button, .settings-containers .container.notif p button{
+  float: left;
+  background: #f50a7b;
+  margin: 20px 0 0;
+  padding: 4px 30px;
+  text-align: center;
+  color: #fff;
+  font-weight: 200;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+}
+.settings-containers .container.subsc .col-lg-6 p button {
+  float: right;
+  margin: 15px 20% 0 0;
+  padding: 4px 38px;
+}
+.settings-containers .container.contact .col-lg-6, .settings-containers .container.notif .col-lg-6, .settings-containers .container.subsc .col-lg-6{
+  padding: 0;
+  width: 50%;
+  margin: 0 25%;
+}
+.settings-containers .container.contact .col-lg-12, .settings-containers .container.contact .col-lg-5{
+  padding: 0;
+}
+.settings-containers .container.contact p {
+  float: left;
+  width: 100%;
+  margin: 10px 0 5px;
+}
+.settings-containers .container.contact input, .settings-containers .container.contact select{
+  width: 100%;
+  height: 50px;
+  margin: 0 0 10px;
+  padding: 0 10px;
+  border: 2px solid #d1d1d1;
+  overflow: auto;
+  outline: none;
+  box-shadow: none;
+  resize: none;
+  border-radius: 0;
+  background: transparent;
+  -webkit-appearance: none;
+}
+.settings-containers .container.contact p button {
+  float: right;
+  background: #f50a7b;
+  margin: 30px 0 0;
+  padding: 4px 50px;
+  text-align: center;
+  color: #fff;
+  font-weight: 200;
+  cursor: pointer;
+  border: none;
+  font-size: 17px;
+}
+.settings-containers .container.notif p.email {
+  float: left;
+  font-size: 23px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.settings-containers .container.notif .agree-term {
+  margin: 20px 0 13px;
+  float: left;
+  width: 100%;
+}
+.settings-containers .container.notif .agree-term .checkbox {
+  border: 1px solid #b3b3b3;
+  /*height: 25px;*/
+  font-size: 23px;
+  width: auto;
+  float: left;
+  font-weight: 200;
+  padding: 0 9px;
+  margin: 0 50px 0 16px;
+  cursor: pointer;
+}
+.settings-containers .container.notif .agree-term .checkbox span {
+  visibility: hidden;
+}
+.settings-containers .container.notif .agree-term .checkbox.enabled span {
+  visibility: visible;
+}
+.settings-containers .container.notif .agree-term p {
+  /*color: #8f4d4d;*/
+  float: left;
+  font-size: 20px;
+  font-weight: 200;
+}
+.settings-containers .container.notif p button {
+  margin: 50px 0 0 16px;
+}
+
+.email-confirmation .modal-content {
+  border-radius: 0;
+}
+.email-confirmation .modal-header {
+  padding: 20px 20px 60px;
+  border: 0;
+}
+.email-confirmation h1 {
+  font-size: 30px;
+  margin: 20px 0 0;
+  font-weight: 200;
+  color: #f50c79;
+  text-transform: uppercase;
+}
+.email-confirmation p{
+  font-size: 21px;
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-weight: 200;
+  color: #705f66;
+  margin: 20px 0 0;
+  text-transform: uppercase;
+}
+.email-confirmation .modal-header .text-center button.close {
+  background: #f50a7b;
+  margin: 20px 0 0;
+  padding: 8px 50px;
+  text-align: center;
+  color: #fff;
+  font-weight: 200;
+  cursor: pointer;
+  border: none;
+  border-radius: 0;
+  font-size: 18px;
+  float: none;
+  opacity: 1;
+  text-transform: uppercase;
+}
+.term-modal .modal-dialog {
+  width: 700px;
+}
+.term-modal .modal-content {
+  padding: 20px;
+}
+.term-modal .modal-header{
+  margin:0;
+  padding: 50px 20px 0;
+  border: 0;
+}
+.term-modal .term-container{
+  float: left;
+  width: 100%;
+  border: 1px solid #b3b3b3;
+  height: 400px;
+  overflow:auto;
+  background: #fff;
+  font-weight: 200;
+  padding: 50px;
+  font-size: 12px;
+}
+.term-modal .term-container .content {
+  float: left;
+  width: 100%;
+  height: 2000px;
+}
+.term-modal .term-container .terms-index {
+  float: left;
+  padding-left: 20px; 
+}
+.term-modal .term-container .col-lg-1, .term-modal .term-container .col-lg-11 {
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+.term-modal .term-container .col-lg-1 {
+  width: 4%;
+}
+.term-modal .term-container .col-lg-11 {
+  width: 96%;
+}
+.term-modal .input-container {
+  float: left;
+  width: 100%;
+  margin: 20px 0 0;
+}
+.term-modal .input-container p.url-text {
+  float: left;
+  margin: 9px 0 0;
+  font-size: 25px;
+  font-weight: 500;
+  color: #000;
+}
+.term-modal p button {
+  background: #f50a7b;
+  margin: 30px 0 0;
+  padding: 4px 50px;
+  text-align: center;
+  color: #fff;
+  font-weight: 200;
+  cursor: pointer;
+  border: none;
+  font-size: 17px;
+  float: right;
+}
+@media (max-width:768px){
+  .settings-header {
+    margin: 0 0 30px;
+  }
+  .settings-header span {
+    width: 100%;
+    float: left;
+    margin: 0 0 20px;
+    padding: 20px 0;
+    border:none;
+    font-size: 20px;
+  }
+  .settings-header span.active {
+    border:none;
+    background: #d90f74;
+    color: #fff;
+  }
+  .settings-containers {
+    width: 100%;
+    margin: 0;
+    padding: 0 5%;
+  }
+  .settings-containers .container {
+    padding: 0;
+  }
+  .settings-containers .container h1 {
+    font-size: 32px;
+  }
+  .settings-containers .container.contact .col-lg-6, .settings-containers .container.contact .col-lg-5,
+  .settings-containers .container.notif .col-lg-6 , .settings-containers .container.subsc .col-lg-6.subsc-cont{
+    width: 100%;
+    margin: 0;
+  }
+  .settings-containers .container.notif .agree-term .checkbox {
+    margin: 0 10px 0 0;
+  }
+  .settings-containers .container.notif .agree-term p {
+    width: 80%;
+    text-align: left;
+  }
+  .settings-containers .container.notif p button {
+    width: 40%;
+    margin: 20px 30%;
+    font-size: 20px;
+  }
+  .settings-containers .container.subsc form, .settings-containers .container.subsc form.second {
+    padding: 0;
+  }
+  .settings-containers .container.subsc form button span {
+    font-size: 15px;
+  }
+  .settings-containers .container.subsc  p span {
+    font-size: 13px;
+  }
+}

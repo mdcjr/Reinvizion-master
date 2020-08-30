@@ -1,0 +1,253 @@
+.main-body.business-page { position: relative; }
+.business-page .row-profile-header {
+	width: 100%;
+	padding: 0;
+}
+
+/* Sidebar Styling */
+.sidebar-search {
+	width: 15%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	min-width: 150px;
+	background-color: rgb(242,242,242);
+	padding-top: 50px;
+}
+
+.sidebar-search > a { 
+	color: #1A1A1A;
+	font-family: AauxBold !important;
+	text-decoration: underline;
+	width: 90%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	width: auto;
+	display: block;
+	text-align: center;
+}
+
+.sidebar-search > label {
+	color: #808080;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	font-family: AauxItalic !important;
+	font-style: italic;
+	font-weight: normal;
+	background-image: url('/images/down-arrow-pink.png');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 18px;
+	padding-bottom: 11px;
+	margin-bottom: 30px;
+}
+
+.sidebar-search > form > div {
+	width: 90%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.sidebar-search > form > div > label {
+	width: 100%;
+	font-size: 12px;
+	font-family: AauxBold !important;
+	color: #333333;
+}
+
+.sidebar-search > form > div > input {
+	width: 95%;
+	padding: 2.5%;
+	font-family: AauxRegularItalic !important;
+	color: #808080;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	background-color: t;
+}
+
+.sidebar-search > form > div > button {
+  color: #fff;
+  padding: 5px 30px;
+  background-color: #F6087D;
+  max-width: 200px;
+  font-family: AauxRegular !important;
+  font-weight: normal;
+  font-size: 12px;
+  border-style: none;
+  outline: none;
+}
+
+/* Data Listing Style */
+.data-listing {
+	width: 85%;
+	margin: auto;
+	margin-right: 0;
+	margin-bottom: 50px;
+}
+
+ul#businessListing {
+	padding: 80px 0 50px 0;
+	width: 95%;
+	margin: auto;
+}
+
+.business-item {
+	width: 100%;
+	list-style: none;
+	position: relative;
+	overflow: auto;
+	padding: 30px 2.5%;
+	border-bottom: 2px solid #eee;
+}
+
+.business-item > div {
+	float: left;
+}
+
+.business-item > .user-image {
+	min-width: 100px;
+}
+
+.business-item > .user-info {
+	padding: 22px 0 0 30px;
+}
+
+.business-item > div:last-child {
+	float: right;
+	padding: 25px 0;
+}
+
+.business-item > .user-image a {
+	width: 100%;
+	margin: auto;
+	display: block;
+	text-align: left;
+}
+
+.business-item > .user-image div.img {
+	width: 90px;
+	height: 90px;
+	font-size: 15px;
+	border-radius: 50%;
+	background-size: cover;
+}
+
+.business-item > .user-info > p {
+	font-size: 15px; 
+}
+
+.business-item > .user-info > p > span:first-child {
+	display: block;
+	font-family: AauxBold !important;
+	font-style: normal;
+}
+
+.business-item > .user-info > p > span:last-child {
+	display: block;
+	font-family: AauxMediumItalic !important;
+	font-style: italic;
+}
+
+.business-item > div:last-child button {
+	display: block;
+	margin: auto;
+	margin-right: 0;
+	padding: 5px 25px;
+	color: #F6087D;
+	font-family: AauxRegular !important;
+	font-size: 15px;
+	font-weight: normal;
+	border: 1px solid rgb(150, 58, 102);
+	background-color: transparent;
+	outline: none;
+}
+
+.business-item > div:last-child button.connect {
+	background-color: #F6087D;
+	color: #fff;
+  padding: 5px 34px;
+}
+
+.data-listing div.col-lg-12 > button {
+	color: #A898A1;
+	font-family: AauxBold !important;
+	border-style: none;
+	background-color: transparent;
+	margin-bottom: 50px;
+}
+
+.footer-background {
+  float: none;
+  position: fixed;
+  bottom: 0;	    
+}
+
+@media (max-width: 1220px) {
+	.sidebar-search { width: 20%; }
+	.data-listing { width: 80%; }
+}
+
+@media (max-width: 767px) {
+
+	.main-body.business-page {
+		padding-top: 0 !important;
+	}
+
+	.sidebar-search { position: relative; }
+
+	.sidebar-search, .data-listing {
+		width: 100%;
+		position: relative;
+		padding-top: 30px;
+	}
+
+	.sidebar-search {
+		padding-bottom: 20px;
+	}
+
+	.sidebar-search > a {
+		margin-top: 0;
+	}
+
+	.sidebar-search > label {
+		width: 100%;
+	}
+
+	.sidebar-search > form > div > label,
+	.sidebar-search > form > div > input,
+	.sidebar-search > form > div > button { 
+		width: 80%;
+		text-align: center;
+		margin: auto;
+		display: block;
+	}
+
+	.sidebar-search > form > div > label { padding-bottom: 10px; }
+	.sidebar-search > form > div > input { padding: 10px; }
+
+	.data-listing { margin-bottom: 0; }
+
+	.row-profile-header h1 { font-size: 25px; }
+	.business-item > div {
+		float: none !important;
+		padding: 0 !important;
+	}
+
+	.business-item > .user-info { 
+		padding: 20px 0 !important;
+		padding-left: 0 !important; 
+	}
+
+	.business-item > div .img, 
+	.business-item > div button {
+		display: block;
+		margin: auto;
+	}
+
+	.business-item > div:last-child button { margin-right: auto; }
+
+	.footer-background { display: none; }
+}

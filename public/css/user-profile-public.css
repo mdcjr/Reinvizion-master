@@ -1,0 +1,156 @@
+.row-header h4 {
+  margin: 10px 38% 10px;
+  float: left;
+  width: 24%;
+  border: 0;
+  background: #f50a7b;
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+.row-header h4.connected {
+  color: #f50a7b;
+  border: 2px solid #f50a7b;
+  background: transparent;
+  margin-bottom: 6px;
+}
+.row-profile .section-profile img.user-img {
+  cursor: default;
+}
+.row-profile .public-profile-content p {
+  margin: 19px 0 0;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.row-profile .public-profile-content span {
+  font-style: italic;
+  font-weight: 200;
+}
+.row-profile .public-profile-content p a {
+  color: #ff0381;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 200;
+  text-transform: none;
+}
+.section-discussions h3 {
+  font-weight: 700;
+}
+.user-dropdown-container .relative-container {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+.user-dropdown-container .notif-dropdown {
+  margin: 0 0 0 -50px;
+  width: auto;
+  position: absolute;
+  top: 66px;
+  z-index: 20;
+  background: #fff;
+  display: none;
+  border-left: 1px solid #b3b3b3;
+  border-right: 1px solid #b3b3b3;
+  border-bottom: 1px solid #b3b3b3;
+}
+.user-dropdown-container .notif-dropdown {
+  margin: 0 0 0 -16px;
+}
+.notif-dropdown .arrow-down {
+  width: 0; 
+  height: 0; 
+  margin: -15px auto 10px;
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+  border-bottom: 15px solid #fff;
+}
+.notif-dropdown .message-container {
+  width: 240px;
+  margin: 50px 30px 20px;
+  padding: 0 0 20px;
+  border-bottom: 2px solid #b3b3b3;
+  float: left;
+}
+.notif-dropdown .message-container {
+  width: 300px;
+  margin: 0 20px;
+  padding: 30px 0 20px;
+}
+.notif-dropdown .image-container img{
+  width: 30%;
+  height: 5VW;
+  border-radius: 100%;
+  float: left;
+}
+.notif-dropdown .image-container p{
+  float: left;
+  color: #a69aa1;
+  font-size: 16px;
+  margin: 26px 0 0 20px;
+}
+.notif-dropdown p.navbar-brand, .notif-dropdown p.navbar-brand a  {
+  padding: 20px 0 0;
+  margin: 0!important;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  color: #a69aa1;
+}
+.notif-dropdown p.navbar-brand:hover {
+  color: #a69aa1;
+}
+.notif-dropdown p.navbar-brand a:hover {
+  text-decoration: none;
+}
+.notif-dropdown .message-container p {
+  font-size: 20px;
+  margin: 0;
+  padding-left: 10px;
+  float: left;
+  width: 100%;
+  font-weight: 500;
+}
+.notif-dropdown .user-notif-count {
+  margin: 2px 0 0px;
+  background: #e9f0ed;
+  float: right;
+  border: 1px solid #b3b3b3;
+  font-size: 17px;
+  font-weight: 500;
+}
+.notif-dropdown .message-container .message-review , .notif-dropdown .message-container .message-enroll span{
+  color: #ff0586;
+}
+.notif-dropdown .message-container .message-direct, .notif-dropdown .message-container .message-enroll, .notif-dropdown .message-container .message-connect {
+  color: #999999;
+}
+.notif-dropdown .message-container .message-enroll p {
+  padding-left: 20px;
+}
+.notif-dropdown .message-container .image {
+    float: left;
+    width: 55px;
+    height: 55px;
+    background-color: #e9f0ed;
+    border: 1px solid #b3b3b3;
+    border-radius: 100%;
+}
+.notif-dropdown .message-container.connect .image {
+  margin-left: -32px;
+} 
+.notif-dropdown .message-container.connect p {
+  font-size: 15px;
+}
+.notif-dropdown .message-container.connect .image.first {
+  margin-left: 20px;
+}
+.user-dropdown-container #header_user_name {
+  padding-left: 0;
+}
+.user-dropdown-container .user-notif-count {
+  margin: 21px 0 0 0;
+}

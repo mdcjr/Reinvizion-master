@@ -1,0 +1,215 @@
+.container-fluid {
+  overflow: hidden;
+}
+
+.messages-main {
+  background:#f0f0f0;
+  float: left;
+  width: 100%;
+}
+
+.inbox {
+  padding: 30px 0;
+}
+
+.inbox h1{
+  float: left;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  color: #e61983;
+  margin: 20px 0;
+}
+.inbox hr {
+  float: left;
+  width: 90%;
+  margin: 10px 5%;
+  border-color:#a19a9c;
+}
+.inbox .user {
+  float: left;
+  width: 100%;
+  cursor: pointer;
+}
+.inbox .user .image {
+  width: 20%;
+  height: auto;
+  margin: 0 0 0 24px;
+  border-radius: 100%;
+  padding-top: 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+.inbox .user p {
+  float: left;
+  /*width: 80%;*/
+  margin: 13px 0 0 10px;
+  color: #a1a1a1;
+  font-weight: 200;
+  font-size: 13px;
+}
+.inbox .user.active p {
+  color: #333333;
+  font-weight: 500;
+}
+.inbox .user .count {
+  float: right;
+  margin: 13px 24px 0 0;
+}
+.inbox .start-convo {
+  cursor: pointer;
+  font-weight: 500;
+  color: #636363;
+  float: left;
+  width: 100%;
+  margin: 40px 0 0;
+}
+.message-body {
+  background:#fff;
+  -webkit-box-shadow:0px -1px 0px 1px #9e9d9d;
+  -moz-box-shadow:0px -1px 0px 1px #9e9d9d;
+  box-shadow:0px -1px 0px 1px #9e9d9d;
+  padding: 0;
+  min-height: 600px;
+}
+.message-body h1 {
+  font-size: 30px;
+  color: #8f7986;
+  font-weight: 500;
+  margin: 80px 0 0;
+}
+.message-body .conversation {
+  float: left;
+  width: 80%;
+  margin: 30px 10%;
+}
+.message-body .conversation .date {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #a1a1a1; 
+  line-height: 0px;
+  font-size: 15px;
+  margin: 30px 0 20px;
+  color: #a1a1a1;
+  font-weight: 500;
+  float: left;
+  text-transform: uppercase;
+}
+.message-body .conversation .date span { 
+  background:#fff; 
+  padding:0 10px; 
+}
+.message-body .conversation .message {
+  float: left;
+  width: 100%;
+  margin: 40px 0 0;
+}
+.message-body .current_conv{
+  display: none;
+}
+.message-body .current_conv.active {
+  display: block;
+}
+.message-body .message .col-lg-1 {
+  padding: 0;
+  width: 8.33333333%;
+  float: left;
+}
+.message-body .message .col-lg-10 {
+  width: 83.33333333%;
+  float: left;
+}
+.message-body .message .image{
+  width: 70%;
+  height: auto;
+  margin: 0 15%;
+  border-radius: 100%;
+  padding-top: 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+.message-body .message .username {
+  color: #e61983;
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin: 7px 0 0;
+  font-size: 13px;
+}
+.message-body .message .body {
+  margin: 15px 0 0;
+}
+.message-body .message .body p {
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  color: #333333;
+  font-weight: 19px;
+  font-weight: 500;
+}
+.message-body .message .time {
+  padding: 40px 0 0;
+}
+.message-body .message .time p {
+  font-weight: 500;
+  color: #a1a1a1;
+  font-size: 12px;
+}
+.message-body .discus-thread {
+  width: 100%;
+  min-height: 100px;
+  margin: 70px 0 10px;
+  border: 1px solid #b3b3b3;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+}
+.message-body .discus-thread::placeholder {
+  color: #a1a1a1;
+}
+.message-body #message-save {
+  margin: 0 0 50px 0;
+  border: 1px solid;
+  background-color: #ff0586;
+  color: #fff;
+  float: right;
+  font-size: 20px;
+  padding: 5px 40px;
+  font-weight: 200;
+}
+.classmates-popup .img {
+  cursor: pointer;
+}
+
+.inbox, .message-body {
+  height: inherit;
+  overflow: hidden;
+  overflow-y: scroll !important;
+}
+
+.inbox::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 5px;
+}
+
+.inbox::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+
+@media (max-width:767px) {
+  .container-fluid {
+    overflow-y: scroll;
+  }
+}

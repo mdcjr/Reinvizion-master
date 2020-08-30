@@ -1,0 +1,275 @@
+/*.services h1 {
+  margin: 70px 0 0;
+  color: #f50a7b;
+  font-weight: 500;
+  font-size: 50px;
+}
+.services button {
+  width: 40%;
+  margin: 70px 30% 0;
+  padding: 30px 0;
+  background: #F2F2F2;
+  border: 3px solid #e3e3e3;
+  color: #4d4d4d;
+  font-weight: 200;
+  font-size: 32px;
+}*/
+
+.services .row-header .col-lg-12 {
+  padding: 0;
+}
+
+.services .row-header .col-lg-12 h1 {
+  color: white; 
+  padding: 70px 0; 
+  margin: 0;
+  font-family: AauxBold !important;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.services section {
+  padding: 80px 0;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+
+.services section .container  {
+  width: 60%;
+  margin: auto;
+}
+
+.services section h3 {
+  margin: 0;
+  font-family: AauxBold !important;
+  font-weight: normal;
+  font-size: 40px;
+  color: rgb(253, 0, 128);
+}
+
+.services section p {
+  color: white;
+  font-family: AauxRegular !important;
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 20px;
+  max-width: 570px;
+}
+
+.services section ul {
+  color: white;
+  font-family: AauxRegular !important;
+  font-weight: normal;
+  font-size: 18px;
+  padding-left: 17px;
+  margin-top: 20px;
+}
+
+.services section ul.dash { padding-left: 0; }
+.services section ul.dash li { list-style: none; }
+.services section ul.dash li span { padding-right: 5px; }
+
+.services section ul li {
+  list-style-type: disc;
+}
+
+.services section button {
+  color: white;
+  padding: 12px 40px;
+  background-color: transparent;
+  letter-spacing: 2px;
+  font-family: AauxLight !important;
+  margin-top: 40px;
+  border-style: none;
+  border: 2px solid rgb(166,165,166);
+  outline: none !important;
+}
+
+.services section button:hover {
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+/* Welcome Popup Styling */
+#welcome-popup.services {
+  padding-right: 0 !important;
+  background-image: url('/images/popup-bg.png');
+  background-size: cover;
+}
+
+#welcome-popup.services h1, #welcome-popup.services h2 {
+  font-family: AauxRegular !important;
+  font-family: normal;
+  width: 64%;
+  margin: auto;
+}
+
+#welcome-popup.services h1 { margin-top: 50px; }
+#welcome-popup.services h2 { margin-top: 20px; }
+
+
+.modal.business-services-page { background-color: rgba(167, 0 ,135, .4); }
+
+.modal.business-services-page button.close { margin: 0; }
+
+.modal.business-services-page .modal-header { border-bottom: none; }
+
+.modal.business-services-page .modal-header > h1 {
+  color: #f50c79;
+  font-weight: initial;
+  font-size: 35px;
+  padding: 0 10px;
+}
+
+.modal.business-services-page .modal-header > h2 {
+  color: rgb(129, 129, 129);
+  font-family: AauxLightItalic !important;
+  font-size: 18px;
+  font-weight: initial;
+  padding: 0 10px;
+} 
+
+.modal.business-services-page .form-group {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.modal.business-services-page input { 
+  width: 100%;
+  outline: none; 
+}
+
+.modal.business-services-page select {
+  width: 100%;
+  height: 34px;
+  border-radius: 0;
+  background-color: transparent;
+  outline: none;
+  -webkit-appearance: menulist;
+  -moz-appearance: menulist;
+}
+
+.modal.business-services-page .name > input#fname,
+.modal.business-services-page .contact > div:first-child {
+  width: 50%;
+  float: left;
+}
+
+.modal.business-services-page .name > input#lname,
+.modal.business-services-page .contact > div:nth-child(2),
+.modal.business-services-page .location > div:nth-child(2) {
+  width: 45%;
+  float: right;
+}
+
+.modal.business-services-page .location > div:first-child,
+.modal.business-services-page .zip-code > input {
+  width: 40%;
+  float: left;
+}
+
+.modal.business-services-page textarea {
+  height: 130px;
+  width: 100%;
+}
+
+.modal.business-services-page .modal-footer { border: none; }
+
+.modal.business-services-page #save {
+  background: #f50a7b;
+  display: block;
+  margin: auto;
+  padding: 4px 20px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-family: AauxLight !important;
+  font-weight: initial;
+}
+
+@media (max-width: 768px) {
+  #welcome-popup.services h1 { margin-top: 30px; }
+  #welcome-popup.services h2 { width: 80%; }
+
+
+  .modal.business-services-page .modal-body { padding-top: 0; }
+
+  .modal.business-services-page .form-group > input, 
+  .modal.business-services-page .form-group > div {
+    float: none !important;
+    width: 100% !important;
+    display: block !important;
+  }
+
+  .modal.business-services-page .name > input#fname,
+  .modal.business-services-page .form-group > div:first-child { margin-bottom: 10px !important; }
+
+  .modal.business-services-page button.close { margin: -20px 20px 0 0;  }
+}
+
+@media (max-width: 767px) {
+  .services section {
+    padding: 60px 0;
+  }
+
+  .services .row-header .col-lg-12 h1 {
+    font-size: 30px;
+    padding: 40px 10px;
+  }
+
+  .services section .container {
+    width: 90%;
+  }
+
+  .services section h3 {
+    margin: auto;
+    font-size: 28px;
+  }
+
+  .services section p, .services section ul {
+    margin: 20px auto 0;
+    font-size: 15px;
+    max-width: initial;
+  }
+
+  .services section button {
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px 30px;
+  }
+
+  .services.footer-background {
+    height: 70px;
+  }
+}
+
+@media (max-width: 420px) {
+  .services section {
+    padding: 40px 0;
+  }
+
+  .services .row-header .col-lg-12 h1 {
+    font-size: 25px;
+  }
+
+   .services section h3 {
+    font-size: 20px;
+  }
+
+  .services section p, .services section ul, .services section button {
+    font-size: 12px;
+  }
+
+  .services section button {
+    padding: 10px 20px;
+  }
+
+  .services.footer-background {
+    height: 60px;
+  }
+}

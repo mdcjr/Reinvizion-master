@@ -1,0 +1,110 @@
+.row-profile-header .col-lg-9 {
+	float: none;
+	margin: auto;
+	max-width: 950px;
+}
+
+#business-reviews { padding-left: 0; }
+
+#business-reviews li {
+	list-style: none;
+	border-bottom: 2px solid #cccccc;
+	margin: 50px 0;
+	padding-bottom: 50px;
+}
+
+#business-reviews li:first-child {
+	margin-top: 80px;
+}
+
+#business-reviews li:last-child {
+	border-bottom: none;
+}
+
+#business-reviews li > div {
+	width: 90%;
+	margin: auto;
+	/*border: 1px solid black;*/
+	text-align: initial;
+}
+
+#business-reviews li p, #business-reviews li { color: #4D4D4D; }
+
+#business-reviews li img.reviewer,
+#business-reviews li div.reviewer-img {
+	width: 100%;
+	max-width: 80px;
+	height: 80px;
+	float: left;
+	border-radius: 50%;
+	background-size: cover;
+}
+
+#business-reviews li div.info {
+	width: 80%;
+  float: left;
+  padding: 1% 0 1% 3%;
+}
+
+#business-reviews li div.info p {
+	font-family: AauxRegular !important;
+	font-size: 15px;
+	font-style: normal;
+}
+
+#business-reviews li div.rating-title{
+	clear: both;
+	overflow: auto;
+}
+
+#business-reviews li div.rating-title img {
+	width: 30%;
+	max-width: 130px;
+	padding: 2% 0;
+	float: left;
+}
+
+#business-reviews li div.rating-title p { 
+	width: 70%;
+  padding-left: 2%;
+  font-family: AauxBold !important;
+  font-style: normal;
+  font-size: 18px;
+  float: left;
+  margin-top: 8px;
+}
+
+#business-reviews li div.message p {
+  width: 80%;
+  margin-left: 13%;
+  font-family: AauxRegular !important;
+  font-weight: normal;
+  font-style: initial;
+  padding-top: 15px;
+}
+
+@media (max-width:767px) {
+	#business-reviews li img.reviewer,
+	#business-reviews li div.reviewer-img, 
+	#business-reviews li div.info,
+	#business-reviews li div.rating-title img, 
+	#business-reviews li div.rating-title p { 
+		float: none;
+		width: 100%; 
+		margin: auto;
+		padding: 15px 0 0 0;
+		text-align: center;
+		display: block;
+	}
+
+	#business-reviews li img.reviewer { 
+		width: 100px;
+		height: 100px;
+	}
+
+	#business-reviews li div.message p { 
+		width: 100%;
+		margin-left: 0;
+		text-align: center;
+	}
+}
